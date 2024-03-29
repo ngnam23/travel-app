@@ -89,7 +89,10 @@ const Recommendations = () => {
         contentContainerStyle={{ columnGap: SIZES.medium }}
         showsHorizontalScrollIndicator={false}
         renderItem={({ item }) => (
-          <ReusableTile item={item} onPress={() => {}} />
+          <ReusableTile
+            item={item}
+            onPress={() => navigation.navigate("PlaceDetail", item._id)}
+          />
         )}
       />
     </View>

@@ -8,6 +8,7 @@ import {
   ReusableText,
   Places,
   Recommendations,
+  BestHotel,
 } from "../../components";
 import { COLORS, SIZES, TEXT } from "../../constants/theme";
 import styles from "./home.style";
@@ -45,6 +46,10 @@ const Home = ({ navigation }) => {
         <HeightSpacer height={15} />
 
         <Recommendations />
+
+        <HeightSpacer height={22} />
+
+        <BestHotel />
       </View>
     </SafeAreaView>
   );

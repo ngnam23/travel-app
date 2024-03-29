@@ -6,6 +6,10 @@ import Profile from "./profile/Profile";
 import Search from "./search/Search";
 import CountryDetail from "./details/CountryDetail";
 import Recommended from "./details/Recommended";
+import PlaceDetail from "./details/PlaceDetail";
+import HotelDetail from "./details/HotelDetail";
+import HotelList from "./details/HotelList";
+import HotelSearch from "./search/HotelSearch";
 
 export {
   OnBoarding,
@@ -16,4 +20,8 @@ export {
   Recommended,
   Search,
   CountryDetail,
+  PlaceDetail,
+  HotelDetail,
+  HotelList,
+  HotelSearch,
 };
